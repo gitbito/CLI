@@ -19,16 +19,16 @@ Terminal
 
 **Download And Install Using Curl (Mac/Linux)** Recommended
 
-```curl https://alpha.bito.co/downloads/cli/install.sh -fsSL | bash``` (curl will always download the latest version)
+```sudo curl https://alpha.bito.co/downloads/cli/install.sh -fsSL | bash``` (curl will always download the latest version)
 
 **MSI Package (for Windows)** Recommended
 
-1. Install the Bito CLI using this [installer](https://gitlab.com/bitoai/cli/-/raw/main/version-1.0/BitoCLI.msi).
+1. Install the Bito CLI using this [installer](https://github.com/gitbito/CLI/raw/main/version-1.0/BitoCLI.msi).
 2. On Windows 11 you might get notification related to publisher verification. Click on "Show more" or "More info" and click on "Run anyway" (we are working on fixing this as soon as possbile).
 3. Once the installation is complete, start a new command prompt and run ```bito``` to get started.
 
 **Manual Binary Download**
-1. Download Bito CLI binary specific to your OS platform from [here](https://gitlab.com/bitoai/cli/-/tree/main/version-1.0) (Please download the latest version for all new updates).
+1. Download Bito CLI binary specific to your OS platform from [here](https://github.com/gitbito/CLI/tree/main/version-1.0) (Please download the latest version for all new updates).
 
 ## MacOS specific note:
 After downloading the CLI for Mac you might face issues related to verification for which you will have to manually do the steps from [here](https://support.apple.com/en-in/guide/mac-help/mh40616/mac) (we are working on fixing it as soon as possible).
