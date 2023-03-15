@@ -30,7 +30,7 @@ We recommend you use the following methods to install Bito CLI.
 3. Once the installation is complete, start a new command prompt and run ```bito``` to get started.
 
 
-## Installing with Manual Binary Download (Not Recommend)
+## Installing with Manual Binary Download (Not Recommended)
 While it's not recommended, you can download the Bito CLI binary from our repository, and install is manually. The binary is available for Linux and Mac OS, x86 and ARM architecture. 
 
 ### Mac & Linux
