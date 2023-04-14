@@ -54,8 +54,46 @@ While it's not recommended, you can download the Bito CLI binary from our reposi
 
 ### Bito CLI Commands
 #### help
-- On MAC/Linux: run ```./bito --help``` or ```./bito config --help```
-- On Windows: run ```bito --help``` or ```bito config --help```     
+- On MAC/Linux: 
+run ```./bito --help``` or ```./bito config --help```
+
+- On Windows: 
+run ```bito --help``` or ```bito config --help```
+
+#### Bito CLI MyPrompt (Automation using Bito CLI)
+##### On MAC/Linux: 
+
+- run ```./bito – p writedocprompt.txt -f mycode.js``` for non-interactive mode in Bito (where writedocprompt.txt will contain your prompt text such as "Explain the code below in brief" and mycode.js will contain the actual code on which the action is to be performed.)
+
+- run ```cat file.txt | ./bito``` to directly cat a file and pipe it to bito and get instant result for your query.
+
+- run ```cat inventory.sql | bito -p testdataprompt.txt > testdata.sql``` to redirect your output directly to a file (where -p can be used along with cat to perform prompt related action on the given content.)
+
+##### On Windows: 
+- run ```bito – p writedocprompt.txt -f mycode.js``` for non-interactive mode in Bito (where writedocpromot.txt will contain your prompt text such as "Explain the code below in brief" and mycode.js will contain the actual code on which the action is to be performed.)
+
+- run ```type file.txt | ./bito``` to take input from file in windows and pipe it to bito and get instant result for your query.
+
+- run ```type inventory.sql | bito -p testdataprompt.txt > testdata.sql``` to redirect your output directly to a file (where -p can be used along with type to perform prompt related action on the given content.)
+
+##### Using Macro:
+
+Use ``{{%input%}}`` macro in the prompt file to refer to the contents of the file provided via -f option
+
+Example: To check if a file contains JS code or not, you can create a prompt file checkifjscode.txt with following prompt:
+```
+Context is provided below within contextstart and contextend
+contextstart
+{{%input%}}
+contextend
+Check if content provided in context is JS code.
+```
+## FAQs
+
+### Enabling unicode For Windows 10 and below:
+1. Unicode characters (using other languages) might not be readily supported on command prompt if you are on Windows 10 or below. You can run command ```chcp 936``` in cmd prior to using bito to support unicode characters in Windows 10 or below (To undo the settings done here you can follow this [link](https://share.bito.co/static/share?aid=8e535e57-d57f-4e03-a692-cf81a98fa6d2)).
+2. IF you are on Windows 11 then you shouldn't encounter any such issues.
+
 ## License ##
 
 Copyright (C) 2021, Bito Inc - All Rights Reserved
