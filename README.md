@@ -63,18 +63,18 @@ run ```bito --help``` or ```bito config --help```
 #### Bito CLI MyPrompt (Automation using Bito CLI)
 ##### On MAC/Linux: 
 
-- run ```./bito – p writedocprompt.txt -f mycode.js``` for non-interactive mode in Bito (where writedocprompt.txt will contain your prompt text such as "Explain the code below in brief" and mycode.js will contain the actual code on which the action is to be performed.)
+- run ```./bito – p writedocprompt.txt -f mycode.js``` for non-interactive mode in Bito (where writedocprompt.txt will contain your prompt text such as "Explain the code below in brief" and mycode.js will contain the actual code on which the action is to be performed).
 
 - run ```cat file.txt | ./bito``` to directly cat a file and pipe it to bito and get instant result for your query.
 
-- run ```cat inventory.sql | bito -p testdataprompt.txt > testdata.sql``` to redirect your output directly to a file (where -p can be used along with cat to perform prompt related action on the given content.)
+- run ```cat inventory.sql | bito -p testdataprompt.txt > testdata.sql``` to redirect your output directly to a file (where -p can be used along with cat to perform prompt related action on the given content).
 
 ##### On Windows: 
-- run ```bito – p writedocprompt.txt -f mycode.js``` for non-interactive mode in Bito (where writedocpromot.txt will contain your prompt text such as "Explain the code below in brief" and mycode.js will contain the actual code on which the action is to be performed.)
+- run ```bito – p writedocprompt.txt -f mycode.js``` for non-interactive mode in Bito (where writedocpromot.txt will contain your prompt text such as "Explain the code below in brief" and mycode.js will contain the actual code on which the action is to be performed).
 
 - run ```type file.txt | ./bito``` to take input from file in windows and pipe it to bito and get instant result for your query.
 
-- run ```type inventory.sql | bito -p testdataprompt.txt > testdata.sql``` to redirect your output directly to a file (where -p can be used along with type to perform prompt related action on the given content.)
+- run ```type inventory.sql | bito -p testdataprompt.txt > testdata.sql``` to redirect your output directly to a file (where -p can be used along with type to perform prompt related action on the given content).
 
 ##### Using Macro:
 
