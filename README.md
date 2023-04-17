@@ -92,7 +92,7 @@ Check if content provided in context is JS code.
 #### Examples: 
 Here are two examples for you to see My Prompt in action:
 
-1. [How to Create Git Commit Messages and Markdown Documentation with Ease using Bito CLI My Prompt](https://youtu.be/q42hqwT-jsg){:target="_blank"}
+1. [How to Create Git Commit Messages and Markdown Documentation with Ease using Bito CLI My Prompt](https://youtu.be/q42hqwT-jsg)
 2. [How to generate test data using Bito CLI My Prompt](https://youtu.be/GYa0p511NUQ)
 
 ## FAQs
