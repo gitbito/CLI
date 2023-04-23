@@ -25,7 +25,7 @@ We recommend you use the following methods to install Bito CLI.
 
 ### Windows
 
-1. Install the Bito CLI through MSI using this [installer](https://github.com/gitbito/CLI/raw/main/version-1.0/BitoCLI.msi).
+1. Install the Bito CLI through MSI using this [installer](https://github.com/gitbito/CLI/raw/main/version-3.0/BitoCLI.msi).
 2. On Windows 11 you might get notification related to publisher verification. Click on "Show more" or "More info" and click on "Run anyway" (we are working on fixing this as soon as possbile).
 3. Once the installation is complete, start a new command prompt and run ```bito``` to get started.
 
@@ -35,7 +35,7 @@ While it's not recommended, you can download the Bito CLI binary from our reposi
 
 ### Mac & Linux
 
-1. Download Bito CLI binary specific to your OS platform from [here](https://github.com/gitbito/CLI/tree/main/version-1.0) (Please download the latest version for all new updates).
+1. Download Bito CLI binary specific to your OS platform from [here](https://github.com/gitbito/CLI/tree/main/version-3.0) (Please download the latest version for all new updates).
 2. Start the terminal, go to the location where your downloaded the binary, move the downloaded file (in the command below use bito-* filename you have downloaded) to filename bito
     ``` mv bito-<os>-<arch> bito ```
 2. Make the file executable using following command
