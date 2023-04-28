@@ -21,6 +21,13 @@ We recommend you use the following methods to install Bito CLI.
 
 ```sudo curl https://alpha.bito.co/downloads/cli/install.sh -fsSL | bash``` (curl will always download the latest version)
 
+#### Archlinux 
+
+Arch and  Arch based distro users can install it from [AUR](https://aur.archlinux.org/packages/bito-cli)
+
+``` yay -S bito-cli``` or ```paru -S bito-cli```
+
+
 **Note for the Mac Users:** You might face issue related to verification for which you will have to manually do the steps from [here](https://support.apple.com/en-in/guide/mac-help/mh40616/mac) (we are working on fixing it as soon as possible).
 
 ### Windows
