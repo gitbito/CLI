@@ -21,6 +21,13 @@ We recommend you use the following methods to install Bito CLI.
 
 ```sudo curl https://alpha.bito.co/downloads/cli/install.sh -fsSL | bash``` (curl will always download the latest version)
 
+#### Archlinux 
+
+Arch and  Arch based distro users can install it from [AUR](https://aur.archlinux.org/packages/bito-cli)
+
+``` yay -S bito-cli``` or ```paru -S bito-cli```
+
+
 **Note for the Mac Users:** You might face issue related to verification for which you will have to manually do the steps from [here](https://support.apple.com/en-in/guide/mac-help/mh40616/mac) (we are working on fixing it as soon as possible).
 
 ### Windows
@@ -28,6 +35,16 @@ We recommend you use the following methods to install Bito CLI.
 1. Install the Bito CLI through MSI using this [installer](https://github.com/gitbito/CLI/raw/main/version-3.0/BitoCLI.msi).
 2. On Windows 11 you might get notification related to publisher verification. Click on "Show more" or "More info" and click on "Run anyway" (we are working on fixing this as soon as possbile).
 3. Once the installation is complete, start a new command prompt and run ```bito``` to get started.
+
+## Uninstalling Bito CLI
+
+### MAC and Linux
+
+```sudo curl https://alpha.bito.co/downloads/cli/uninstall.sh -fsSL | bash``` (this will completely uninstall Bito CLI and all of its components)
+
+### Windows
+
+For Windows you can uninstall Bito CLI just like you do for any other software uninstall from control panel. You can still refer the link provided [here](https://sharestage.bito.co/static/share?aid=91940c09-0813-495d-9ea8-a89f1db19fdc).
 
 
 ## Installing with Manual Binary Download (Not Recommended)
