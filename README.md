@@ -13,7 +13,11 @@ Terminal
 
     **Note:** Bito CLI supports long prompts through multiline input. To complete and submit the prompt, press `Ctrl+D`. Enter/Return key adds a new line to the input.
 - **Exit Bito CLI:** To quit/exit from Bito CLI, type ```quit``` and press ```Ctrl+D``` .
-- **Terminate:** Press ```Ctrl+C``` to Bito CLI..
+- **Terminate:** Press ```Ctrl+C``` to Bito CLI.
+
+### Getting Started
+Check out the video below to get started with Bito CLI
+
 ## Installing Bito CLI (Recommended)
 We recommend you use the following methods to install Bito CLI.
 
@@ -109,8 +113,13 @@ Check if content provided in context is JS code.
 #### Examples: 
 Here are two examples for you to see My Prompt in action:
 
-1. [How to Create Git Commit Messages and Markdown Documentation with Ease using Bito CLI My Prompt](https://youtu.be/q42hqwT-jsg)
-2. [How to generate test data using Bito CLI My Prompt](https://youtu.be/GYa0p511NUQ)
+1. How to Create Git Commit Messages and Markdown Documentation with Ease using Bito CLI My Prompt:
+
+[![Video](https://markdown-videos.deta.dev/youtube/q42hqwT-jsg)](https://www.youtube.com/watch?v=q42hqwT-jsg)
+
+2. How to generate test data using Bito CLI My Prompt:
+
+[![Video](https://markdown-videos.deta.dev/youtube/GYa0p511NUQ)](https://www.youtube.com/watch?v=GYa0p511NUQ)
 
 ## FAQs
 
