@@ -18,6 +18,8 @@ Terminal
 ### Getting Started
 Check out the video below to get started with Bito CLI
 
+https://user-images.githubusercontent.com/61789690/236821693-11705a17-e2a8-4f7c-8921-a47e75c81794.mp4
+
 ## Installing Bito CLI (Recommended)
 We recommend you use the following methods to install Bito CLI.
 
