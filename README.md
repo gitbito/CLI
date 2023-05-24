@@ -92,12 +92,16 @@ run ```bito --help``` or ```bito config --help```
 
 - run ```cat inventory.sql | bito -p testdataprompt.txt > testdata.sql``` to redirect your output directly to a file (where -p can be used along with cat to perform prompt related action on the given content).
 
+- run ```cat inventory.sql | bito -c runcontext.txt -p testdataprompt.txt > testdata.sql``` to store context/conversation history in non-interactive mode in file `runcontext.txt` to use for next set of commands in case prior context is needed. If `runcontext.txt` is not present it will be created. Please provide a new file or an existing context file created by bito using `-c` option. ***With `-c` option now context is supported in non-interactive mode***
+
 ##### On Windows: 
 - run ```bito – p writedocprompt.txt -f mycode.js``` for non-interactive mode in Bito (where writedocpromot.txt will contain your prompt text such as "Explain the code below in brief" and mycode.js will contain the actual code on which the action is to be performed).
 
 - run ```type file.txt | ./bito``` to take input from file in windows and pipe it to bito and get instant result for your query.
 
 - run ```type inventory.sql | bito -p testdataprompt.txt > testdata.sql``` to redirect your output directly to a file (where -p can be used along with type to perform prompt related action on the given content).
+
+- run ```type inventory.sql | bito -c runcontext.txt -p testdataprompt.txt > testdata.sql``` to store context/conversation history in non-interactive mode in file `runcontext.txt` to use for next set of commands in case prior context is needed. If `runcontext.txt` is not present it will be created. Please provide a new file or an existing context file created by bito using `-c` option. ***With `-c` option now context is supported in non-interactive mode***
 
 ##### Using Macro:
 
