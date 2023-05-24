@@ -86,7 +86,7 @@ run ```bito --help``` or ```bito config --help```
 #### Bito CLI MyPrompt (Automation using Bito CLI)
 ##### On MAC/Linux: 
 
-- run ```./bito – p writedocprompt.txt -f mycode.js``` for non-interactive mode in Bito (where writedocprompt.txt will contain your prompt text such as "Explain the code below in brief" and mycode.js will contain the actual code on which the action is to be performed).
+- run ```./bito –p writedocprompt.txt -f mycode.js``` for non-interactive mode in Bito (where writedocprompt.txt will contain your prompt text such as "Explain the code below in brief" and mycode.js will contain the actual code on which the action is to be performed).
 
 - run ```cat file.txt | ./bito``` to directly cat a file and pipe it to bito and get instant result for your query.
 
