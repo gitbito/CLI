@@ -38,7 +38,7 @@ Arch and  Arch based distro users can install it from [AUR](https://aur.archlinu
 
 ### Windows
 
-1. Install the Bito CLI through MSI using this [installer](https://github.com/gitbito/CLI/raw/main/version-3.1/BitoCLI.msi).
+1. Install the Bito CLI through MSI using this [installer](https://github.com/gitbito/CLI/raw/main/version-3.2/BitoCLI.msi).
 2. On Windows 11 you might get notification related to publisher verification. Click on "Show more" or "More info" and click on "Run anyway" (we are working on fixing this as soon as possbile).
 3. Once the installation is complete, start a new command prompt and run ```bito``` to get started.
 
@@ -58,7 +58,7 @@ While it's not recommended, you can download the Bito CLI binary from our reposi
 
 ### Mac & Linux
 
-1. Download Bito CLI binary specific to your OS platform from [here](https://github.com/gitbito/CLI/tree/main/version-3.1) (Please download the latest version for all new updates).
+1. Download Bito CLI binary specific to your OS platform from [here](https://github.com/gitbito/CLI/tree/main/version-3.2) (Please download the latest version for all new updates).
 2. Start the terminal, go to the location where your downloaded the binary, move the downloaded file (in the command below use bito-* filename you have downloaded) to filename bito
     ``` mv bito-<os>-<arch> bito ```
 2. Make the file executable using following command
@@ -94,6 +94,8 @@ run ```bito --help``` or ```bito config --help```
 
 - run ```cat inventory.sql | bito -c runcontext.txt -p testdataprompt.txt > testdata.sql``` to store context/conversation history in non-interactive mode in file `runcontext.txt` to use for next set of commands in case prior context is needed. If `runcontext.txt` is not present it will be created. Please provide a new file or an existing context file created by bito using `-c` option. ***With `-c` option now context is supported in non-interactive mode***
 
+- run ```echo "give me code for bubble sort in python" | bito``` to instantly get response for your queries using Bito CLI.
+
 ##### On Windows: 
 - run ```bito – p writedocprompt.txt -f mycode.js``` for non-interactive mode in Bito (where writedocpromot.txt will contain your prompt text such as "Explain the code below in brief" and mycode.js will contain the actual code on which the action is to be performed).
 
@@ -102,6 +104,8 @@ run ```bito --help``` or ```bito config --help```
 - run ```type inventory.sql | bito -p testdataprompt.txt > testdata.sql``` to redirect your output directly to a file (where -p can be used along with type to perform prompt related action on the given content).
 
 - run ```type inventory.sql | bito -c runcontext.txt -p testdataprompt.txt > testdata.sql``` to store context/conversation history in non-interactive mode in file `runcontext.txt` to use for next set of commands in case prior context is needed. If `runcontext.txt` is not present it will be created. Please provide a new file or an existing context file created by bito using `-c` option. ***With `-c` option now context is supported in non-interactive mode***
+
+- run ```echo "give me code for bubble sort in python" | bito``` to instantly get response for your queries using Bito CLI.
 
 ##### Using Macro:
 
