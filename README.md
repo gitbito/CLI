@@ -78,7 +78,7 @@ While it's not recommended, you can download the Bito CLI binary from our reposi
 ### Bito CLI Commands
 #### help
 - On MAC/Linux: 
-run ```./bito --help``` or ```./bito config --help```
+run ```bito --help``` or ```bito config --help```
 
 - On Windows: 
 run ```bito --help``` or ```bito config --help```
@@ -86,9 +86,10 @@ run ```bito --help``` or ```bito config --help```
 #### Bito CLI MyPrompt (Automation using Bito CLI)
 ##### On MAC/Linux: 
 
-- run ```./bito –p writedocprompt.txt -f mycode.js``` for non-interactive mode in Bito (where writedocprompt.txt will contain your prompt text such as "Explain the code below in brief" and mycode.js will contain the actual code on which the action is to be performed).
+- run ```bito -v``` or ```bito --version``` to print the version number of Bito CLI installed currently.
+- run ```bito –p writedocprompt.txt -f mycode.js``` for non-interactive mode in Bito (where writedocprompt.txt will contain your prompt text such as "Explain the code below in brief" and mycode.js will contain the actual code on which the action is to be performed).
 
-- run ```cat file.txt | ./bito``` to directly cat a file and pipe it to bito and get instant result for your query.
+- run ```cat file.txt | bito``` to directly cat a file and pipe it to bito and get instant result for your query.
 
 - run ```cat inventory.sql | bito -p testdataprompt.txt > testdata.sql``` to redirect your output directly to a file (where -p can be used along with cat to perform prompt related action on the given content).
 
@@ -97,9 +98,10 @@ run ```bito --help``` or ```bito config --help```
 - run ```echo "give me code for bubble sort in python" | bito``` to instantly get response for your queries using Bito CLI.
 
 ##### On Windows: 
+- run ```bito -v``` or ```bito --version``` to print the version number of Bito CLI installed currently.
 - run ```bito – p writedocprompt.txt -f mycode.js``` for non-interactive mode in Bito (where writedocpromot.txt will contain your prompt text such as "Explain the code below in brief" and mycode.js will contain the actual code on which the action is to be performed).
 
-- run ```type file.txt | ./bito``` to take input from file in windows and pipe it to bito and get instant result for your query.
+- run ```type file.txt | bito``` to take input from file in windows and pipe it to bito and get instant result for your query.
 
 - run ```type inventory.sql | bito -p testdataprompt.txt > testdata.sql``` to redirect your output directly to a file (where -p can be used along with type to perform prompt related action on the given content).
 
