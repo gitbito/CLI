@@ -99,7 +99,7 @@ run ```bito --help``` or ```bito config --help```
 
 ##### On Windows: 
 - run ```bito -v``` or ```bito --version``` to print the version number of Bito CLI installed currently.
-- run ```bito – p writedocprompt.txt -f mycode.js``` for non-interactive mode in Bito (where writedocpromot.txt will contain your prompt text such as "Explain the code below in brief" and mycode.js will contain the actual code on which the action is to be performed).
+- run ```bito – p writedocprompt.txt -f mycode.js``` for non-interactive mode in Bito (where writedocprompt.txt will contain your prompt text such as "Explain the code below in brief" and mycode.js will contain the actual code on which the action is to be performed).
 
 - run ```type file.txt | bito``` to take input from file in windows and pipe it to bito and get instant result for your query.
 
