@@ -25,7 +25,7 @@ We recommend you use the following methods to install Bito CLI.
 
 ### MAC and Linux
 
-```sudo curl https://alpha.bito.co/downloads/cli/install.sh -fsSL | bash``` (curl will always download the latest version)
+```sudo curl https://alpha.bito.ai/downloads/cli/install.sh -fsSL | bash``` (curl will always download the latest version)
 
 #### Archlinux 
 
@@ -46,7 +46,7 @@ Arch and  Arch based distro users can install it from [AUR](https://aur.archlinu
 
 ### MAC and Linux
 
-```sudo curl https://alpha.bito.co/downloads/cli/uninstall.sh -fsSL | bash``` (this will completely uninstall Bito CLI and all of its components)
+```sudo curl https://alpha.bito.ai/downloads/cli/uninstall.sh -fsSL | bash``` (this will completely uninstall Bito CLI and all of its components)
 
 ### Windows
 
