@@ -127,11 +127,11 @@ Here are two examples for you to see My Prompt in action:
 
 1. How to Create Git Commit Messages and Markdown Documentation with Ease using Bito CLI My Prompt:
 
-[![Video](https://markdown-videos.deta.dev/youtube/q42hqwT-jsg)](https://www.youtube.com/watch?v=q42hqwT-jsg)
+[![Video](https://markdown-videos.vercel.app/youtube/q42hqwT-jsg)](https://www.youtube.com/watch?v=q42hqwT-jsg)
 
 2. How to generate test data using Bito CLI My Prompt:
 
-[![Video](https://markdown-videos.deta.dev/youtube/GYa0p511NUQ)](https://www.youtube.com/watch?v=GYa0p511NUQ)
+[![Video](https://markdown-videos.vercel.app/youtube/GYa0p511NUQ)](https://www.youtube.com/watch?v=GYa0p511NUQ)
 
 ## FAQs
 
