@@ -148,13 +148,13 @@ Here are two examples for you to see My Prompt in action:
 
 #### Sample Configuration
 
-bito:
-    access_key: ""
-    email: manthan.trivedi@bito.co
-    preferred_ai_model: ADVANCED
-settings:
-    auto_update: true
-    max_context_entries: 20
+bito:<br/>
+    access_key: ""<br/>
+    email: first.last@mycompany.com<br/>
+    preferred_ai_model: ADVANCED<br/>
+settings:<br/>
+    auto_update: true<br/>
+    max_context_entries: 20<br/>
 
 ##### Preferred AI Model
 By default it is set to ```ADVANCED``` and it can be overridden by running ```bito -m <BASIC/ADVANCED>```
