@@ -149,12 +149,12 @@ Here are two examples for you to see My Prompt in action:
 #### Sample Configuration
 
 bito:<br/>
-    access_key: ""<br/>
-    email: first.last@mycompany.com<br/>
-    preferred_ai_model: ADVANCED<br/>
+&emsp;access_key: ""<br/>
+&emsp;email: first.last@mycompany.com<br/>
+&emsp;preferred_ai_model: ADVANCED<br/>
 settings:<br/>
-    auto_update: true<br/>
-    max_context_entries: 20<br/>
+&emsp;auto_update: true<br/>
+&emsp;max_context_entries: 20<br/>
 
 ##### Preferred AI Model
 By default it is set to ```ADVANCED``` and it can be overridden by running ```bito -m <BASIC/ADVANCED>```
