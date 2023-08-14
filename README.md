@@ -87,7 +87,10 @@ run ```bito --help``` or ```bito config --help```
 ##### On MAC/Linux: 
 
 - run ```bito -v``` or ```bito --version``` to print the version number of Bito CLI installed currently.
+
 - run ```bito –p writedocprompt.txt -f mycode.js``` for non-interactive mode in Bito (where writedocprompt.txt will contain your prompt text such as "Explain the code below in brief" and mycode.js will contain the actual code on which the action is to be performed).
+
+- run ```bito –p writedocprompt.txt``` to read the content at standard input in Bito (where writedocprompt.txt will contain your prompt text such as "Explain the code below in brief" and input provided will have the actual content on which the action is to be performed).
 
 - run ```cat file.txt | bito``` to directly cat a file and pipe it to bito and get instant result for your query.
 
@@ -99,7 +102,10 @@ run ```bito --help``` or ```bito config --help```
 
 ##### On Windows: 
 - run ```bito -v``` or ```bito --version``` to print the version number of Bito CLI installed currently.
+
 - run ```bito – p writedocprompt.txt -f mycode.js``` for non-interactive mode in Bito (where writedocprompt.txt will contain your prompt text such as "Explain the code below in brief" and mycode.js will contain the actual code on which the action is to be performed).
+
+- run ```bito –p writedocprompt.txt``` to read the content at standard input in Bito (where writedocprompt.txt will contain your prompt text such as "Explain the code below in brief" and input provided will have the actual content on which the action is to be performed).
 
 - run ```type file.txt | bito``` to take input from file in windows and pipe it to bito and get instant result for your query.
 
@@ -132,6 +138,26 @@ Here are two examples for you to see My Prompt in action:
 2. How to generate test data using Bito CLI My Prompt:
 
 [![Video](https://markdown-videos.vercel.app/youtube/GYa0p511NUQ)](https://www.youtube.com/watch?v=GYa0p511NUQ)
+
+### Bito CLI Configuration
+#### bito config [flags]
+
+- run ```bito config -l``` or ```bito config --list``` to list all config variables and values.
+
+- run ```bito config -e``` or ```bito config --edit``` to open the config file in default editor.
+
+#### Sample Configuration
+
+bito:
+    access_key: ""
+    email: manthan.trivedi@bito.co
+    preferred_ai_model: ADVANCED
+settings:
+    auto_update: true
+    max_context_entries: 20
+
+##### Preferred AI Model
+By default it is set to ```ADVANCED``` and it can be overridden by running ```bito -m <BASIC/ADVANCED>```
 
 ## FAQs
 
