@@ -162,7 +162,16 @@ Model type is used for AI query in the current session. Model type can be set to
 
 ##### Access Key
 Access Key can be created at Bito Web UI and used in Bito CLI.
+
+To create an access key, do the following:
+- Login into your account at: https://alpha.bito.ai
+- Once logged in open: https://alpha.bito.ai/home/settings/advanced
+- Click on the "Create new key" button under section "Bito Access Key" to create a new key and copy it.
+- Make sure to protect your key and do not check it in, into any code to avoid accidental leakage.
+- In case you think your key is compromised, you can delete the existing key and create new key anytime.
+
 Access Key is an alternate authentication mechanism to Email & OTP based aunthentication.
+
 
 Access Key can be persisted in Bito CLI by running ```bito config -e```
 Such persisted Access Key can be over-ridden by running ```bito -k <access-key>``` or ```bito --key <access-key>``` for the transient session.
