@@ -158,7 +158,7 @@ settings:<br/>
 
 ##### Preferred AI Model Type
 By default AI Model Type is set to ```ADVANCED``` and it can be overridden by running ```bito -m <BASIC/ADVANCED>```
-Model type to use for AI query in the current session. Model type can be set to BASIC/ADVANCED, which is case insensitive.
+Model type is used for AI query in the current session. Model type can be set to BASIC/ADVANCED, which is case insensitive.
 
 ##### Access Key
 Access Key can be created at Bito Web UI and used in Bito CLI.
