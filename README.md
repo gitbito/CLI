@@ -103,7 +103,7 @@ run ```bito --help``` or ```bito config --help```
 ##### On Windows: 
 - run ```bito -v``` or ```bito --version``` to print the version number of Bito CLI installed currently.
 
-- run ```bito – p writedocprompt.txt -f mycode.js``` for non-interactive mode in Bito (where writedocprompt.txt will contain your prompt text such as "Explain the code below in brief" and mycode.js will contain the actual code on which the action is to be performed).
+- run ```bito –p writedocprompt.txt -f mycode.js``` for non-interactive mode in Bito (where writedocprompt.txt will contain your prompt text such as "Explain the code below in brief" and mycode.js will contain the actual code on which the action is to be performed).
 
 - run ```bito –p writedocprompt.txt``` to read the content at standard input in Bito (where writedocprompt.txt will contain your prompt text such as "Explain the code below in brief" and input provided will have the actual content on which the action is to be performed).
 
@@ -156,8 +156,16 @@ settings:<br/>
 &emsp;auto_update: true<br/>
 &emsp;max_context_entries: 20<br/>
 
-##### Preferred AI Model
-By default it is set to ```ADVANCED``` and it can be overridden by running ```bito -m <BASIC/ADVANCED>```
+##### Preferred AI Model Type
+By default AI Model Type is set to ```ADVANCED``` and it can be overridden by running ```bito -m <BASIC/ADVANCED>```
+Model type to use for AI query in the current session. Model type can be set to BASIC/ADVANCED, which is case insensitive.
+
+##### Access Key
+Access Key can be created at Bito Web UI and used in Bito CLI.
+Access Key is an alternate authentication mechanism to Email & OTP based aunthentication.
+
+Access Key can be persisted in Bito CLI by running ```bito config -e```
+Such persisted Access Key can be over-ridden by running ```bito -k <access-key>``` or ```bito --key <access-key>``` for the transient session.
 
 ## FAQs
 
