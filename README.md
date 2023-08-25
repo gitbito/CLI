@@ -87,7 +87,10 @@ run ```bito --help``` or ```bito config --help```
 ##### On MAC/Linux: 
 
 - run ```bito -v``` or ```bito --version``` to print the version number of Bito CLI installed currently.
+
 - run ```bito –p writedocprompt.txt -f mycode.js``` for non-interactive mode in Bito (where writedocprompt.txt will contain your prompt text such as "Explain the code below in brief" and mycode.js will contain the actual code on which the action is to be performed).
+
+- run ```bito –p writedocprompt.txt``` to read the content at standard input in Bito (where writedocprompt.txt will contain your prompt text such as "Explain the code below in brief" and input provided will have the actual content on which the action is to be performed).
 
 - run ```cat file.txt | bito``` to directly cat a file and pipe it to bito and get instant result for your query.
 
@@ -99,7 +102,10 @@ run ```bito --help``` or ```bito config --help```
 
 ##### On Windows: 
 - run ```bito -v``` or ```bito --version``` to print the version number of Bito CLI installed currently.
-- run ```bito – p writedocprompt.txt -f mycode.js``` for non-interactive mode in Bito (where writedocprompt.txt will contain your prompt text such as "Explain the code below in brief" and mycode.js will contain the actual code on which the action is to be performed).
+
+- run ```bito –p writedocprompt.txt -f mycode.js``` for non-interactive mode in Bito (where writedocprompt.txt will contain your prompt text such as "Explain the code below in brief" and mycode.js will contain the actual code on which the action is to be performed).
+
+- run ```bito –p writedocprompt.txt``` to read the content at standard input in Bito (where writedocprompt.txt will contain your prompt text such as "Explain the code below in brief" and input provided will have the actual content on which the action is to be performed).
 
 - run ```type file.txt | bito``` to take input from file in windows and pipe it to bito and get instant result for your query.
 
@@ -132,6 +138,43 @@ Here are two examples for you to see My Prompt in action:
 2. How to generate test data using Bito CLI My Prompt:
 
 [![Video](https://markdown-videos.vercel.app/youtube/GYa0p511NUQ)](https://www.youtube.com/watch?v=GYa0p511NUQ)
+
+### Bito CLI Configuration
+#### bito config [flags]
+
+- run ```bito config -l``` or ```bito config --list``` to list all config variables and values.
+
+- run ```bito config -e``` or ```bito config --edit``` to open the config file in default editor.
+
+#### Sample Configuration
+
+bito:<br/>
+&emsp;access_key: ""<br/>
+&emsp;email: first.last@mycompany.com<br/>
+&emsp;preferred_ai_model: ADVANCED<br/>
+settings:<br/>
+&emsp;auto_update: true<br/>
+&emsp;max_context_entries: 20<br/>
+
+##### Preferred AI Model Type
+By default AI Model Type is set to ```ADVANCED``` and it can be overridden by running ```bito -m <BASIC/ADVANCED>```
+Model type is used for AI query in the current session. Model type can be set to BASIC/ADVANCED, which is case insensitive.
+
+##### Access Key
+Access Key can be created at Bito Web UI and used in Bito CLI.
+
+To create an access key, do the following:
+- Login into your account at: https://alpha.bito.ai
+- Once logged in open: https://alpha.bito.ai/home/settings/advanced
+- Click on the "Create new key" button under section "Bito Access Key" to create a new key and copy it.
+- Make sure to protect your key and do not check it in, into any code to avoid accidental leakage.
+- In case you think your key is compromised, you can delete the existing key and create new key anytime.
+
+Access Key is an alternate authentication mechanism to Email & OTP based aunthentication.
+
+
+Access Key can be persisted in Bito CLI by running ```bito config -e```
+Such persisted Access Key can be over-ridden by running ```bito -k <access-key>``` or ```bito --key <access-key>``` for the transient session.
 
 ## FAQs
 
