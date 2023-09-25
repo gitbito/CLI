@@ -182,6 +182,20 @@ Such persisted Access Key can be over-ridden by running ```bito -k <access-key>`
 1. Unicode characters (using other languages) might not be readily supported on command prompt if you are on Windows 10 or below. You can run command ```chcp 936``` in cmd prior to using bito to support unicode characters in Windows 10 or below (To undo the settings done here you can follow this [link](https://share.bito.co/static/share?aid=8e535e57-d57f-4e03-a692-cf81a98fa6d2)).
 2. IF you are on Windows 11 then you shouldn't encounter any such issues.
 
+### Using Homebrew for Bito CLI:
+1. Before using homebrew, please make sure that you uninstall any previously installed versions of Bito CLI using the uninstall script provided [here](https://github.com/gitbito/CLI#uninstalling-bito-cli).
+2. Once above is done then you can use following commands to install Bito CLI using homebrew:
+    - First tap the CLI repo using ```brew tap gitbito/bitocli```, this should be a one time action and not required every time.
+    - Now you can install Bito CLI depending upon your system architecture using:
+        - ```brew install bito-macos-arm``` for arm based architecture
+        - ```brew install bito-macos-x86``` for x86 based architecture
+    - To update Bito CLI to the latest version, use following commands:
+        - ```brew upgrade bito-macos-arm``` for arm based architecture
+        - ```brew upgrade bito-macos-x86``` for x86 based architecture
+    - To uninstall Bito CLI you can either use the uninstall command from [here](https://github.com/gitbito/CLI#uninstalling-bito-cli) or use following commands:
+        - ```brew uninstall bito-macos-arm``` for arm based architecture
+        - ```brew uninstall bito-macos-x86``` for x86 based architecture
+
 ## License ##
 
 Copyright (C) 2021, Bito Inc - All Rights Reserved
