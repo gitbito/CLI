@@ -186,15 +186,14 @@ Such persisted Access Key can be over-ridden by running ```bito -k <access-key>`
 1. Before using homebrew, please make sure that you uninstall any previously installed versions of Bito CLI using the uninstall script provided [here](https://github.com/gitbito/CLI#uninstalling-bito-cli).
 2. Once above is done then you can use following commands to install Bito CLI using homebrew:
     - First tap the CLI repo using ```brew tap gitbito/bitocli```, this should be a one time action and not required every time.
-    - Now you can install Bito CLI depending upon your system architecture using:
-        - ```brew install bito-macos-arm``` for arm based architecture
-        - ```brew install bito-macos-x86``` for x86 based architecture
+    - Now you can install Bito CLI using following command:
+        - ```brew install bito-cli``` - this should install Bito CLI based upon your machine architecture.
     - To update Bito CLI to the latest version, use following commands:
-        - ```brew upgrade bito-macos-arm``` for arm based architecture
-        - ```brew upgrade bito-macos-x86``` for x86 based architecture
+        - Please make sure you always do ```brew update``` before upgrading to avoid any errors.
+        - ```brew update``` - this will update all the required packages before upgrading.
+        - ```brew upgrade bito-cli``` - once above is done, this will update Bito CLI to the latest version.
     - To uninstall Bito CLI you can either use the uninstall command from [here](https://github.com/gitbito/CLI#uninstalling-bito-cli) or use following commands:
-        - ```brew uninstall bito-macos-arm``` for arm based architecture
-        - ```brew uninstall bito-macos-x86``` for x86 based architecture
+        - ```brew uninstall bito-cli``` - this should uninstall Bito CLI completely from your system.
 
 ## License ##
 
