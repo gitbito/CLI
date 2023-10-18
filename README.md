@@ -39,7 +39,7 @@ Arch and  Arch based distro users can install it from [AUR](https://aur.archlinu
 ### Windows
 
 1. Install the Bito CLI through MSI using this [installer](https://github.com/gitbito/CLI/blob/main/version-3.5/Bito%20CLI.exe).
-2. On Windows 11 you might get notification related to publisher verification. Click on "Show more" or "More info" and click on "Run anyway" (we are working on fixing this as soon as possbile).
+2. On Windows 11 you might get notification related to publisher verification. Click on "Show more" or "More info" and click on "Run anyway" (we are working on fixing this as soon as possible).
 3. Once the installation is complete, start a new command prompt and run ```bito``` to get started.
 
 ## Uninstalling Bito CLI
