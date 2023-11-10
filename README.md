@@ -115,6 +115,21 @@ run ```bito --help``` or ```bito config --help```
 
 - run ```echo "give me code for bubble sort in python" | bito``` to instantly get response for your queries using Bito CLI.
 
+#### More on Bito CLI MyPrompt:
+
+##### Using Comments:
+
+Anything after ```#``` in your prompt file will be considered as a comment by Bito CLI and won't be part of your prompt.
+
+You can use ```\#``` as an escape sequence to make ```#``` as a part of your prompt and to not use it for commenting anymore.
+
+###### Few examples for above:
+
+1. Give me an example of bubble sort in python # everything written here will be considered as a comment now.
+2. Explain what this part of the code do: ```\#include<stdio.h>```  
+    i. in the example above ```\#``` can be used as an escape sequence to include ```#``` as a part of your prompt.
+3. #This will be considered as a comment as it contains # at the start of the line itself.
+
 ##### Using Macro:
 
 Use ``{{%input%}}`` macro in the prompt file to refer to the contents of the file provided via -f option
