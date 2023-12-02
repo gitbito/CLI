@@ -193,7 +193,7 @@ When using BASIC AI models, your prompts and the chat's memory are limited to 40
 
 If you are seeking the best results for complex tasks, then choose ADVANCED AI models.
 
-Bito CLI also prints the model type that is getting used for your current session on the standard error. If you run "bito" then you should see "Model configured" as "BASIC/ADVANCED". This is the model that is configured within your CLI by default.
+Bito CLI also prints the model configured and the one used for your current session on standard error for your reference. If you run "bito" then you should see "Model configured" as "BASIC/ADVANCED". This is the model that is configured in your CLI configuration (which can be access via ```bito config -e```).
 
 If you start making queries then depending upon your Bito Billing Plan if you are on a Free plan then the model will automatically switch to BASIC and you shall see "Model in use:" as BASIC getting printed.
 
@@ -216,7 +216,7 @@ Access Key can be persisted in Bito CLI by running ```bito config -e```
 Such persisted Access Key can be over-ridden by running ```bito -k <access-key>``` or ```bito --key <access-key>``` for the transient session.
 
 ##### Output Language
-By default Bito CLI generates output in English language. You can change the output language to your preferred language from [here](https://alpha.bito.ai/home/settings/advanced).
+By default Bito CLI generates output in English. You can change the output language to your preferred language from [here](https://alpha.bito.ai/home/settings/advanced).
 
 As of now it takes 30 mins for the language change to reflect in the CLI when the CLI is in the running mode. For the changes to reflect immeditately you can exit the current CLI session using ```Ctrl+C``` and again run the CLI using ```bito```.
 
