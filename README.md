@@ -33,6 +33,18 @@ Arch and  Arch based distro users can install it from [AUR](https://aur.archlinu
 
 ``` yay -S bito-cli``` or ```paru -S bito-cli```
 
+#### Using Homebrew:
+1. Before using homebrew, please make sure that you uninstall any previously installed versions of Bito CLI using the uninstall script provided [here](https://github.com/gitbito/CLI#uninstalling-bito-cli).
+2. Once above is done then you can use following commands to install Bito CLI using homebrew:
+    - First tap the CLI repo using ```brew tap gitbito/bitocli```, this should be a one time action and not required every time.
+    - Now you can install Bito CLI using following command:
+        - ```brew install bito-cli``` - this should install Bito CLI based upon your machine architecture.
+    - To update Bito CLI to the latest version, use following commands:
+        - Please make sure you always do ```brew update``` before upgrading to avoid any errors.
+        - ```brew update``` - this will update all the required packages before upgrading.
+        - ```brew upgrade bito-cli``` - once above is done, this will update Bito CLI to the latest version.
+    - To uninstall Bito CLI you can either use the uninstall command from [here](https://github.com/gitbito/CLI#uninstalling-bito-cli) or use following commands:
+        - ```brew uninstall bito-cli``` - this should uninstall Bito CLI completely from your system.
 
 **Note for the Mac Users:** You might face issue related to verification for which you will have to manually do the steps from [here](https://support.apple.com/en-in/guide/mac-help/mh40616/mac) (we are working on fixing it as soon as possible).
 
@@ -181,6 +193,12 @@ When using BASIC AI models, your prompts and the chat's memory are limited to 40
 
 If you are seeking the best results for complex tasks, then choose ADVANCED AI models.
 
+Bito CLI also prints the model configured and the one used for your current session on standard error for your reference. If you run "bito" then you should see "Model configured" as "BASIC/ADVANCED". This is the model that is configured in your CLI configuration (which can be access via ```bito config -e```).
+
+If you start making queries then depending upon your Bito Billing Plan if you are on a Free plan then the model will automatically switch to BASIC and you shall see "Model in use:" as BASIC getting printed.
+
+If you are on a Paid Plan and haven't exhausted your advanced queries then you shall see "Model in use:" as ADVACNED getting printed.
+
 ##### Access Key
 Access Key can be created at Bito Web UI and used in Bito CLI.
 
@@ -197,24 +215,16 @@ Access Key is an alternate authentication mechanism to Email & OTP based aunthen
 Access Key can be persisted in Bito CLI by running ```bito config -e```
 Such persisted Access Key can be over-ridden by running ```bito -k <access-key>``` or ```bito --key <access-key>``` for the transient session.
 
+##### Output Language
+By default Bito CLI generates output in English. You can change the output language to your preferred language from [here](https://alpha.bito.ai/home/settings/advanced).
+
+As of now it takes 30 mins for the language change to reflect in the CLI when the CLI is in the running mode. For the changes to reflect immeditately you can exit the current CLI session using ```Ctrl+C``` and again run the CLI using ```bito```.
+
 ## FAQs
 
 ### Enabling unicode For Windows 10 and below:
 1. Unicode characters (using other languages) might not be readily supported on command prompt if you are on Windows 10 or below. You can run command ```chcp 936``` in cmd prior to using bito to support unicode characters in Windows 10 or below (To undo the settings done here you can follow this [link](https://share.bito.co/static/share?aid=8e535e57-d57f-4e03-a692-cf81a98fa6d2)).
 2. IF you are on Windows 11 then you shouldn't encounter any such issues.
-
-### Using Homebrew for Bito CLI:
-1. Before using homebrew, please make sure that you uninstall any previously installed versions of Bito CLI using the uninstall script provided [here](https://github.com/gitbito/CLI#uninstalling-bito-cli).
-2. Once above is done then you can use following commands to install Bito CLI using homebrew:
-    - First tap the CLI repo using ```brew tap gitbito/bitocli```, this should be a one time action and not required every time.
-    - Now you can install Bito CLI using following command:
-        - ```brew install bito-cli``` - this should install Bito CLI based upon your machine architecture.
-    - To update Bito CLI to the latest version, use following commands:
-        - Please make sure you always do ```brew update``` before upgrading to avoid any errors.
-        - ```brew update``` - this will update all the required packages before upgrading.
-        - ```brew upgrade bito-cli``` - once above is done, this will update Bito CLI to the latest version.
-    - To uninstall Bito CLI you can either use the uninstall command from [here](https://github.com/gitbito/CLI#uninstalling-bito-cli) or use following commands:
-        - ```brew uninstall bito-cli``` - this should uninstall Bito CLI completely from your system.
 
 ## License ##
 
