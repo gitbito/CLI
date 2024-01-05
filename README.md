@@ -135,18 +135,19 @@ Anything after ```#``` in your prompt file will be considered as a comment by Bi
 
 You can use ```\#``` as an escape sequence to make ```#``` as a part of your prompt and to not use it for commenting anymore.
 
-##### Disabling Comments:
-
-To disable comments in prompt file (undo the behaviour discussed above), you can use -i/--ignore flag in your command for Bito CLI.   
-
-Eg. "bito -p prompt.txt -i" will make sure that even if ```#``` is present in your prompt file, it won't be considered as a comment and your file will be processed as it is.
-
 ###### Few examples for above:
 
 1. Give me an example of bubble sort in python # everything written here will be considered as a comment now.
 2. Explain what this part of the code do: ```\#include<stdio.h>```  
     i. in the example above ```\#``` can be used as an escape sequence to include ```#``` as a part of your prompt.
 3. #This will be considered as a comment as it contains # at the start of the line itself.
+
+##### Disabling Comments:
+
+To disable comments in prompt file (undo the behaviour discussed above), you can use -i/--ignore flag in your command for Bito CLI.   
+
+Eg. "bito -p prompt.txt -i" will make sure that even if ```#``` is present in your prompt file, it won't be considered as a comment and your file will be processed as it is.
+
 
 ##### Using Macro:
 
