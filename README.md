@@ -142,6 +142,14 @@ You can use ```\#``` as an escape sequence to make ```#``` as a part of your pro
     i. in the example above ```\#``` can be used as an escape sequence to include ```#``` as a part of your prompt.
 3. #This will be considered as a comment as it contains # at the start of the line itself.
 
+##### Disabling Comments:
+
+To treat # as normal character and not a special character to mark starting of a comment (which is the default behavior), one can use -i/--ignore flag in your command for Bito CLI.  
+Using -i/--ignore flag in your command for Bito CLI will let Bito CLI know to not treat ```#``` specially and use it as part of the prompt for processing.   
+
+Eg. "bito -p prompt.txt -i" will make sure that even if ```#``` is present in your prompt file, it won't be considered as a comment and your file will be processed as it is.
+
+
 ##### Using Macro:
 
 Use ``{{%input%}}`` macro in the prompt file to refer to the contents of the file provided via -f option
