@@ -95,6 +95,14 @@ run ```bito --help``` or ```bito config --help```
 - On Windows: 
 run ```bito --help``` or ```bito config --help```
 
+#### Slash Commands
+Slash Commands are introduced in Bito CLI to help make features like LCA to be available via the CLI. Slash commands can be used to quickly execute actions like viewing all indexes, selecting a particular index and finally making LCA queries for that index.
+
+- Type "/" in bito> prompt of interactive mode of Bito CLI and hit ENTER or TAB to view all available commands.
+- Type "/[command_name]" in bito> prompt of interactive mode of Bito CLI and hit ENTER or TAB to view all available options for that command.
+- Type "/[command_name] [option_name]" in bito> prompt of interactive mode of Bito CLI and hit ENTER or TAB to execute the available option. 
+- Run ```bito --help``` for help related to slash commands.
+
 #### Bito CLI MyPrompt (Automation using Bito CLI)
 ##### On MAC/Linux: 
 
