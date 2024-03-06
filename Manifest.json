@@ -1,3 +1,5 @@
 {
-    "latestBitoCLIVersion":"3.9"
+    "latestBitoCLIVersion":"4.0"
+    "some_new_param":""
+    "xyz":"abc"
 }
