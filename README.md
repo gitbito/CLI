@@ -50,7 +50,7 @@ Arch and  Arch based distro users can install it from [AUR](https://aur.archlinu
 
 ### Windows
 
-1. Install the Bito CLI through MSI using this [installer](https://github.com/gitbito/CLI/blob/main/version-3.9/Bito%20CLI.exe).
+1. Install the Bito CLI through MSI using this [installer](https://github.com/gitbito/CLI/blob/main/version-4.0/Bito%20CLI.exe).
 2. On Windows 11 you might get notification related to publisher verification. Click on "Show more" or "More info" and click on "Run anyway" (we are working on fixing this as soon as possible).
 3. Once the installation is complete, start a new command prompt and run ```bito``` to get started.
 
@@ -70,7 +70,7 @@ While it's not recommended, you can download the Bito CLI binary from our reposi
 
 ### Mac & Linux
 
-1. Download Bito CLI binary specific to your OS platform from [here](https://github.com/gitbito/CLI/tree/main/version-3.9) (Please download the latest version for all new updates).
+1. Download Bito CLI binary specific to your OS platform from [here](https://github.com/gitbito/CLI/tree/main/version-4.0) (Please download the latest version for all new updates).
 2. Start the terminal, go to the location where your downloaded the binary, move the downloaded file (in the command below use bito-* filename you have downloaded) to filename bito
     ``` mv bito-<os>-<arch> bito ```
 2. Make the file executable using following command
@@ -94,6 +94,14 @@ run ```bito --help``` or ```bito config --help```
 
 - On Windows: 
 run ```bito --help``` or ```bito config --help```
+
+#### Slash Commands
+Slash Commands are introduced in Bito CLI to help make features like LCA to be available via the CLI. Slash commands can be used to quickly execute actions like viewing all local code indexes, selecting a particular local code index and finally making LCA queries for that index.
+
+- Type "/" in bito> prompt of interactive mode of Bito CLI and hit ENTER or TAB to view all available commands.
+- Type "/[command_name]" in bito> prompt of interactive mode of Bito CLI and hit ENTER or TAB to view all available options for that command.
+- Type "/[command_name] [option_name]" in bito> prompt of interactive mode of Bito CLI and hit ENTER or TAB to execute the available option. 
+- Run ```bito --help``` for help related to slash commands.
 
 #### Bito CLI MyPrompt (Automation using Bito CLI)
 ##### On MAC/Linux: 
