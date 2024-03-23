@@ -70,7 +70,7 @@ While it's not recommended, you can download the Bito CLI binary from our reposi
 
 ### Mac & Linux
 
-1. Download Bito CLI binary specific to your OS platform from [here](https://github.com/gitbito/CLI/tree/main/version-4.0) (Please download the latest version for all new updates).
+1. Download Bito CLI binary specific to your OS platform from [here](https://github.com/gitbito/CLI/tree/main/version-4.1) (Please download the latest version for all new updates).
 2. Start the terminal, go to the location where your downloaded the binary, move the downloaded file (in the command below use bito-* filename you have downloaded) to filename bito
     ``` mv bito-<os>-<arch> bito ```
 2. Make the file executable using following command
