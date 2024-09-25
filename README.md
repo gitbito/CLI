@@ -96,7 +96,7 @@ run ```bito --help``` or ```bito config --help```
 run ```bito --help``` or ```bito config --help```
 
 #### Slash Commands
-Slash Commands are introduced in Bito CLI to help make features like LCA to be available via the CLI. Slash commands can be used to quickly execute actions like viewing all local code indexes, selecting a particular local code index and finally making LCA queries for that index.
+Slash Commands are introduced in Bito CLI to help make features like "AI that understands your code" to be available via the CLI. With this, you can access your code index created by the Bito extension in your IDE.  Slash commands can be used to quickly execute actions like viewing all local code indexes, selecting a particular local code index and finally making LCA queries for that index.
 
 - Type "/" in bito> prompt of interactive mode of Bito CLI and hit ENTER or TAB to view all available commands.
 - Type "/[command_name]" in bito> prompt of interactive mode of Bito CLI and hit ENTER or TAB to view all available options for that command.
