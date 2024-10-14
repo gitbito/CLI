@@ -96,7 +96,7 @@ run ```bito --help``` or ```bito config --help```
 run ```bito --help``` or ```bito config --help```
 
 #### Slash Commands
-Slash Commands are introduced in Bito CLI to help make features like LCA to be available via the CLI. Slash commands can be used to quickly execute actions like viewing all local code indexes, selecting a particular local code index and finally making LCA queries for that index.
+Slash Commands are introduced in Bito CLI to help make features like "AI that understands your code" to be available via the CLI. With this, you can access your code index created by the Bito extension in your IDE.  Slash commands can be used to quickly execute actions like viewing all local code indexes, selecting a particular local code index and finally making LCA queries for that index.
 
 - Type "/" in bito> prompt of interactive mode of Bito CLI and hit ENTER or TAB to view all available commands.
 - Type "/[command_name]" in bito> prompt of interactive mode of Bito CLI and hit ENTER or TAB to view all available options for that command.
@@ -201,9 +201,9 @@ settings:<br/>
 
 ##### Preferred AI Model Type
 By default AI Model Type is set to ```ADVANCED``` and it can be overridden by running ```bito -m <BASIC/ADVANCED>```
-Model type is used for AI query in the current session. Model type can be set to BASIC/ADVANCED, which is case insensitive.
+Model type is used for AI query in the current session. Model type can be set to ```BASIC``` or ```ADVANCED```, which is case insensitive.
 
-"ADVANCED" refers to AI models like GPT-4 and Claude 2, while "BASIC" refers to AI models like GPT-3.5 Turbo and Claude Instant.
+"ADVANCED" refers to AI models like GPT-4o, Claude Sonnet 3.5, and best in class AI models, while "BASIC" refers to AI models like GPT-4o mini and similar models. 
 
 When using BASIC AI models, your prompts and the chat's memory are limited to 40,000 characters (about 18 single-spaced pages). However, with ADVANCED AI models, your prompts and the chat memory can go up to 240,000 characters (about 110 single-spaced pages). This means that ADVANCED models can process your entire code files, leading to more accurate answers.
 
