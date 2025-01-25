@@ -23,7 +23,7 @@ https://user-images.githubusercontent.com/61789690/236821693-11705a17-e2a8-4f7c-
 ## Installing Bito CLI (Recommended)
 We recommend you use the following methods to install Bito CLI.
 
-### MAC and Linux
+### MAC and Linux and Windows
 
 ```sudo curl https://alpha.bito.ai/downloads/cli/install.sh -fsSL | bash``` (curl will always download the latest version)
 
@@ -44,7 +44,7 @@ Arch and  Arch based distro users can install it from [AUR](https://aur.archlinu
         - ```brew update``` - this will update all the required packages before upgrading.
         - ```brew upgrade bito-cli``` - once above is done, this will update Bito CLI to the latest version.
     - To uninstall Bito CLI you can either use the uninstall command from [here](https://github.com/gitbito/CLI#uninstalling-bito-cli) or use following commands:
-        - ```brew uninstall bito-cli``` - this should uninstall Bito CLI completely from your system.
+       
 
 **Note for the Mac Users:** You might face issue related to verification for which you will have to manually do the steps from [here](https://support.apple.com/en-in/guide/mac-help/mh40616/mac) (we are working on fixing it as soon as possible).
 
